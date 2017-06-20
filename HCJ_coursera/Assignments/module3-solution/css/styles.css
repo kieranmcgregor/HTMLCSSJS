@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: #fff;
+}
+#header-nav {
+  background-color: #000;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a {
+  text-decoration: none;
+}
+#nav-list a {
+  color: #add8ef;
+  text-align: center;
+}
+#nav-list a:hover {
+  text-shadow: 1px 1px #fff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#main-content {
+  color: #000;
+}
+#main-content h2 {
+  font-size: 1.5em;
+}
+#chicken, #beef, #sushi {
+  background-color: #add8ef;
+  border: 1px solid #000;
+  position: relative;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+}
+#chicken h3, #beef h3, #sushi h3 {
+  font-size: 1.2em;
+  text-align: center;
+}
+#chicken a, #beef a, #sushi a {
+  font-size: .7em;
+}
+#chicken a:hover, #beef a:hover, #sushi a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px #fff;
+}
+
+#randomLongSection {
+  color: #000;
+  background-color: #add8ef;
+  border: 1px solid #000;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+}
+#randomLongSection h3 {
+  font-size: 1.2em;
+  text-align: center;
+}
+#randomLongSection a {
+  font-size: .7em;
+}
+#randomLongSection a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px #fff;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+}

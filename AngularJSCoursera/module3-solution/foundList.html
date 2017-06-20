@@ -1,0 +1,9 @@
+<ul>
+  <li ng-repeat="item in foodPreferenceFinder.foundItems">
+    <button class="btn btn-primary"
+    ng-click="foodPreferenceFinder.onRemove({index: $index});">Don't Want This One!</button>
+    {{ item.name }},
+    {{ item.short_name }},
+    {{ item.description }}
+  </li>
+</ul>
